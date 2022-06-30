@@ -13,7 +13,7 @@
         android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Notes App"
+        android:text="Keep Thoughts"
         android:textColor="@color/white"
         android:textSize="@dimen/_18ssp"
         android:textStyle="bold"

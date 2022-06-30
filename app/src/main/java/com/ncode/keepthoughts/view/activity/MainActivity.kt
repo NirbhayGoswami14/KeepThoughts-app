@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity(), NotesAdapter.ClickListener,
            binding.search.visibility=View.VISIBLE
            binding.search.isIconified=false
            binding.linearSearch.visibility=View.INVISIBLE
-
+           binding.txtTitle.visibility=View.INVISIBLE
        }
 
         getNotes()
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity(), NotesAdapter.ClickListener,
            binding.search.visibility=View.INVISIBLE
            binding.search.isIconified=true
            binding.linearSearch.visibility=View.VISIBLE
-
+           binding.txtTitle.visibility=View.VISIBLE
                   }
 
 
